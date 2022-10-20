@@ -8,7 +8,8 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake_modules/")
 include_directories(${PROJECT_SOURCE_DIR}/include)
 include_directories(${PROJECT_SOURCE_DIR}/temp)
 
-set(OpenCV_DIR /home/xuan/requirement_lib/opencv-2.4.9/build)
+set(OpenCV_DIR /home/steve/code/mycode/E3DV/opencv/build)
+
 message(STATUS "DIR:: ${OpenCV_DIR}")
 find_package( OpenCV 2.4.9 REQUIRED )
 find_package( OpenGL REQUIRED )

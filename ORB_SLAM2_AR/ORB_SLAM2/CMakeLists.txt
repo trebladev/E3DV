@@ -28,7 +28,8 @@ endif()
 
 LIST(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules)
 
-set(OpenCV_DIR /home/xuan/requirement_lib/opencv-2.4.9/build)
+set(OpenCV_DIR /home/steve/code/mycode/E3DV/opencv/build)
+
 find_package(OpenCV 2.4.9 REQUIRED)
 find_package(Eigen3 3.1.0 REQUIRED)
 find_package(Pangolin REQUIRED)

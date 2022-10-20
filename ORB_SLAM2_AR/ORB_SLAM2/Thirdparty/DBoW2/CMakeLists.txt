@@ -24,7 +24,7 @@ set(SRCS_DUTILS
   DUtils/Random.cpp
   DUtils/Timestamp.cpp)
 
-set(OpenCV_DIR /home/xuan/requirement_lib/opencv-2.4.9/build)
+set(OpenCV_DIR /home/steve/code/mycode/E3DV/opencv/build)
 find_package(OpenCV 2.4.9 REQUIRED)
 
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
